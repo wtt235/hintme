@@ -1,5 +1,6 @@
 var r = require('rethinkdb'),
     express = require('express');
+
 var rdb_conn;
 r.connect({host: 'localhost',
            port: 28015,
@@ -10,7 +11,9 @@ r.connect({host: 'localhost',
           });
 
 var app = express();
-app.static('../public/');
+
+// Serve static assets from ../public
+app.use("/public", express.static(__dirname + '/../public'));
 
 app.get('/', function(req, res){
   res.send("Hello, World");
