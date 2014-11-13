@@ -21,6 +21,7 @@
   "author": "TMV",
   "license": "ISC",
   "dependencies": {
-    "rethinkdb": "~1.15.0-0"
+    "rethinkdb": "~1.15.0-0",
+    "express": "~4.10.2"
   }
 }
