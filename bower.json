@@ -1,0 +1,17 @@
+{
+  "name": "hmbomt",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mdpotts22/hintme",
+  "authors": [
+    "todd <williamtoddt@msn.com>"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
