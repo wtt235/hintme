@@ -1,0 +1,26 @@
+{
+  "name": "hmbomt",
+  "version": "0.0.0",
+  "description": "Hint me baby one more time - A tool for saving password hints across devices",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "password",
+    "hint",
+    "javascript",
+    "web",
+    "app",
+    "extension",
+    "chrome",
+    "firefox",
+    "ie",
+    "safari"
+  ],
+  "author": "TMV",
+  "license": "ISC",
+  "dependencies": {
+    "rethinkdb": "~1.15.0-0"
+  }
+}

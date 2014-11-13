@@ -1,0 +1,9 @@
+# Ignore temporary data directory
+
+tmpdata/
+
+# Emacs temporary files
+*~
+\#*
+*\#
+/node_modules/
